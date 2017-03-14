@@ -2,21 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
-@media all and (min-width:800px) and (max-width:850px) {
-		* {
-			visibility: hidden;
-		}
-}
-@media all and (min-width:800px) and (max-width:850px) {
-	body {
-		display: flex;
-		background: #ff004e url("http://www.reactiongifs.com/r/2011/09/stanley_blinking.gif") no-repeat fixed center;
-	}
-}
 body {
 	width: 80%;
 	margin: 0 auto;
 	overflow-x: hidden;
+	background: white;
 /*	overflow: hidden;*/
 }
 p {
@@ -57,16 +47,6 @@ p {
 }
 .socialicons ul {
 	list-style: none;
-}
-@media screen and (max-width: 700px) {
-	.socialicons ul {
-		display: none;
-	}
-}
-@media screen and (max-width: 680px) {
-	.jumbotron {
-		flex-direction: column;
-	}
 }
 .socialicons ul li {
 	display: inline-block;
