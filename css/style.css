@@ -3,11 +3,13 @@
 	padding: 0;
 }
 body {
-	width: 80%;
-	margin: 0 auto;
 	overflow-x: hidden;
 	background: white;
 /*	overflow: hidden;*/
+}
+.mainwindow {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 p {
 	font-size: 10px;
@@ -134,6 +136,10 @@ background: #bdff3f;
 	line-height: 5.5;
 	min-width: 100px;
 }
+
+
+/*CAPTION ANIMATIONS*/
+
 /************/
 .captions6 {
 	display: flex;
@@ -306,3 +312,21 @@ margin: 10px 10px;
 	margin-top: 32px;
 	font-size: 12px;
 }
+
+
+/*WINDOW CHANGING ANIMATION*/
+
+.animatewindow {
+  display: block;
+	animation: newwindow 1s ease forwards;
+}
+
+@keyframes newwindow {
+	0% {
+		transform: translate(-199px) scale3d(2,2,2);
+	}
+	1000% {
+		transform: translate(0px) scale3d(0,0,0);
+	}
+}
+
