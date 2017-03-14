@@ -1,0 +1,328 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@media all and (min-width:800px) and (max-width:850px) {
+		* {
+			visibility: hidden;
+		}
+}
+@media all and (min-width:800px) and (max-width:850px) {
+	body {
+		display: flex;
+		background: #ff004e url("http://www.reactiongifs.com/r/2011/09/stanley_blinking.gif") no-repeat fixed center;
+	}
+}
+body {
+	width: 80%;
+	margin: 0 auto;
+	overflow-x: hidden;
+/*	overflow: hidden;*/
+}
+p {
+	font-size: 10px;
+	color: #b7b7b7;
+}
+.jumbotron {
+	display: flex;
+}
+.logo {
+	flex: 1;
+}
+.logo h1 {
+	font-family: 'Vampiro One', cursive;
+	font-size: 44px;
+	color: coral;
+	padding-left: 20px;
+}
+.logo h5 {
+	padding-left: 20px;
+	margin-top: -10px;
+	color: dimgray;
+	font-family: monospace;
+}
+.adress {
+	margin-bottom: 4px;
+	border-bottom: 1px dashed #a8a8a8;
+	width: 200px;
+	margin-left: auto;
+	padding-bottom: 2px
+}
+.socialicons {
+	flex: 1;
+	text-align: right;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.socialicons ul {
+	list-style: none;
+}
+@media screen and (max-width: 700px) {
+	.socialicons ul {
+		display: none;
+	}
+}
+@media screen and (max-width: 680px) {
+	.jumbotron {
+		flex-direction: column;
+	}
+}
+.socialicons ul li {
+	display: inline-block;
+	margin-left: 2px;
+}
+.socialicons ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #d8d8d8;
+	font-size: 22px;
+	width: 35px;
+	text-align: center;
+	border: 1px solid #d8d8d8;
+	border-radius: 8px;
+	border-bottom: 2px solid #b5b4b4;
+}
+.socialicons ul li a:hover {
+	display: inline-block;
+	text-decoration: none;
+	color: #ffbe2d;
+	font-size: 22px;
+	width: 35px;
+	text-align: center;
+	border: 1px solid #d8d8d8;
+	border-radius: 8px;
+	box-shadow: 0px 0px 13px #cbcbcb;
+	transition: all 0.3s;
+}
+.container {
+	margin-top: 70px;
+	overflow: hidden;
+}
+div[class^="block"]:hover {
+	box-shadow: 0px 0px 13px #898989;
+	transition: all 0.3s;
+}
+i {
+	display: block;
+}
+div[class^="block"] i:hover {
+	transform: scale(2) rotate(360deg);
+	transition: all 0.4s;
+}
+.row {
+	display: flex;
+	text-align: center;
+	font-size: 55px;
+	color: white;
+	flex-wrap: wrap;
+}
+.first {
+	flex: 1;
+}
+.firstrow {
+	display: flex;
+}
+.firstrow .blockcolor1 {
+	background: #3fff7a;
+}
+.firstrow .block2color {
+background: #bdff3f;
+}
+.block1 {
+	flex: 1;
+	width: 100px;
+	background: #17de17;
+	height: 140px;
+	margin: 10px 10px;
+	line-height: 2.4;
+	border-radius: 7px;
+	flex-wrap: nowrap;
+	min-width: 140px;
+}
+.block2 {
+	flex: 1;
+	background: orange;
+	height: 140px;
+	margin: 10px 10px;
+	line-height: 2.6;
+}
+.block3 {
+	flex: 1;
+	background: linear-gradient(45deg, rgba(255,48,25,1) 0%,rgba(255,5,75,1) 90%,rgba(252,0,143,1) 100%);
+	margin: 10px 10px;
+	line-height: 5.5;
+	min-width: 100px;
+}
+/************/
+.captions6 {
+	display: flex;
+	height: 0px;
+	margin-left: 10px;
+	justify-content: flex-start;
+}
+
+.block1:hover .captions6:after {
+	content: " HIRE ME";
+	font-size: 19px;
+	animation: captions6 2s ease forwards;
+	text-shadow: 0px 0px 10px white;
+}
+@keyframes captions6 {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-30px);
+	}
+}
+/************/
+.captions5 {
+	display: flex;
+	height: 0px;
+	margin-left: 10px;
+	justify-content: flex-start;
+}
+
+.block1:hover .captions5:after {
+	content: " TREES";
+	font-size: 19px;
+	animation: captions5 2s ease forwards;
+	text-shadow: 0px 0px 10px white;
+}
+@keyframes captions5 {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-30px);
+	}
+}
+/************/
+.block1:hover .captions2:after {
+	content: " EXPERIENCE";
+	font-size: 19px;
+	animation: captions3 2s ease forwards;
+	text-shadow: 0px 0px 10px white;
+}
+@keyframes captions3 {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-30px);
+	}
+}
+/************/
+.captions4 {
+	display: flex;
+	height: 0px;
+	margin-left: 10px;
+	justify-content: flex-start;
+}
+
+.block2:hover .captions4:after {
+	content: " FLOWERS";
+	font-size: 19px;
+	animation: captions4 2s ease forwards;
+	text-shadow: 0px 0px 10px white;
+}
+@keyframes captions4 {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-40px);
+	}
+}
+/************/
+.captions3 {
+	display: flex;
+	height: 0px;
+	margin-left: 10px;
+	justify-content: flex-start;
+}
+
+.block2:hover .captions3:after {
+	content: " OUR TEAM";
+	font-size: 19px;
+	animation: captions3 2s ease forwards;
+	text-shadow: 0px 0px 10px white;
+}
+@keyframes captions3 {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-40px);
+	}
+}
+/************/
+.captions1 {
+	display: flex;
+	height: 0px;
+	margin-left: 10px;
+	justify-content: flex-start;
+}
+
+.block1:hover .captions1:after {
+	content: " ABOUT ME";
+	font-size: 19px;
+	animation: captions1 2s ease forwards;
+	text-shadow: 0px 0px 10px white;
+}
+@keyframes captions1 {
+	0% {
+		transform: translateY(-100px);
+	}
+	100% {
+		transform: translateY(-30px);
+	}
+}
+/************/
+.captions2 {
+	display: flex;
+	height: 0px;
+	width: 25px;
+	margin-left: 10px;
+	justify-content: flex-start;
+}
+.block3:hover .captions2:after {
+	content: " GALLERY";
+	font-size: 19px;
+	animation: captions 2s ease forwards;
+	text-shadow: 0px 0px 10px white;
+}
+@keyframes captions {
+	0% {
+		transform: translateY(-130px);
+	}
+	100% {
+		transform: translateY(-65px);
+	}
+}
+/************/
+.second {
+	flex: 1;
+}
+.third {
+	flex: 1;
+}
+.last {
+	background: linear-gradient(45deg, rgba(255,235,0,1) 0%,rgba(254,191,4,1) 100%);
+}
+.row2 {
+	display: flex;
+}
+#map {
+flex: 1;
+height: 150px;
+margin: 10px 10px;
+}
+.footer {
+	text-align: center;
+	color: #b7b7b7;
+	position: relative;
+	margin-top: 32px;
+	font-size: 12px;
+}
