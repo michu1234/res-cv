@@ -45,7 +45,6 @@ $(document).ready(function(){
 	// RANDOM SLIDE IN
 
 	$(".ion-arrow-left-c").click(function(){
-	var len = $(".slide").length;
 		random = Math.floor(Math.random() * 6);
 		$("div.slide").removeClass("lightSpeedIn").eq(random).addClass("lightSpeedIn");
 	});
