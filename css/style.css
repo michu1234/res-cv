@@ -922,7 +922,8 @@ width: 50%;
 	margin-left: -50px;
 	position: absolute;
 	opacity: 0;
-	visibility: hidden; filter:progid:DXImageTransform.Microsoft.Shadow(color='#333333', Direction=135, Strength=5);
+	display: none;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#333333', Direction=135, Strength=5);
 
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -935,7 +936,7 @@ width: 50%;
 	height: 300px;
 	opacity: 1;
 	width: 300px;
-	visibility: visible;
+	display: inline;
 
 }
 
